@@ -8,9 +8,6 @@ const ProfilePage = () => {
             <div class="underline"></div>
         </div>
         <article class="review">
-            <div class="img-container">
-                <img src={"/images/person-1.jpeg"} id={"person-img"} alt={""}/>
-            </div>
             <h4 id="author">Sara Jones</h4>
             <p id="job">Front End Developer</p>
             <p id="info">
