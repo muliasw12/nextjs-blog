@@ -1,4 +1,4 @@
-
+import Link from 'next/link'
 
 export const Header = () => {
     return (
@@ -12,16 +12,16 @@ export const Header = () => {
             <div class="links-container">
                 <ul class="links">
                     <li>
-                        <a href="/" class="scroll-link" passHref>Home</a>
+                        <Link href="/" class="scroll-link" passHref>Home</Link>
                     </li>
                     <li>
-                        <a href="/explore" class="scroll-link" passHref>Explore</a>
+                        <Link href="/explore" class="scroll-link" passHref>Explore</Link>
                     </li>
                     <li>
-                        <a href="/friends" class="scroll-link" passHref>My Friends</a>
+                        <Link href="/friends" class="scroll-link" passHref>My Friends</Link>
                     </li>
                     <li>
-                        <a href="/profile" class="scroll-link" passHref>Profile</a>
+                        <Link href="/profile" class="scroll-link" passHref>Profile</Link>
                     </li>
                 </ul>
             </div>
